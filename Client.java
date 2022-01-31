@@ -12,7 +12,6 @@ public class Client extends Thread {
 
             Scanner sc = new Scanner(System.in);
             String input;
-            // lese unendlich von user
             while (true) {
                 input = sc.nextLine();
                 c.sendMessageToServer(input);
