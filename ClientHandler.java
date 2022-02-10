@@ -13,10 +13,8 @@ public class ClientHandler extends Thread {
 
         InputStreamReader in = new InputStreamReader(client.getInputStream());
         br = new BufferedReader(in);
-
         OutputStreamWriter osw = new OutputStreamWriter(client.getOutputStream());
         w = new PrintWriter(osw);
-
         my_clients.add(this);
     }
 
