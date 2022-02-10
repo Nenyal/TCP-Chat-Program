@@ -1,9 +1,3 @@
- # Demo
+ # TCP Chat Program
  
- Demo-Repo
-!!
-
-
-## Subtitle
-Böyle yaşanır mı amına koyim?
-Valla yaşanır mı yaşanır
+Hi. In this project, I made a chat program that works with the TCP protocol.
