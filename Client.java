@@ -9,7 +9,6 @@ public class Client extends Thread {
             Socket s = new Socket("localhost", 11111);
             Client c = new Client(args[0], s);
             c.start();
-
             Scanner sc = new Scanner(System.in);
             String input;
             while (true) {
