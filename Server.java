@@ -8,7 +8,6 @@ public class Server {
 
         try {
             ServerSocket ss = new ServerSocket(11111);
-
             while(true) {
                 Socket client_socket = ss.accept();
                 System.out.println("accepted");
